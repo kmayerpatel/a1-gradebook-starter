@@ -6,4 +6,4 @@ Starter Code For A1
   * A1Adept.java
   * A1Jedi.java
   
-  
+A change I've made in Eclipse.
