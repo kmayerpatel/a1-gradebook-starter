@@ -11,7 +11,7 @@ public class A1Novice {
 		
 		for (int i=0; i<student_count; i++) {
 			
-			// Change to push branch. Another change.
+			// Change to push branch. 
 		}
 	}
 }
