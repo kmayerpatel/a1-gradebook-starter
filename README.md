@@ -68,12 +68,14 @@ C. Tucker B+
 J. Weiss C+
 ```
 
-A1 Adept
+## A1Adept
+
 For this program, the input again represents a COMP 401 gradebook and you will calculate grades, but the format of the input is a bit different and you will have to calculate the assignment and participation components from raw scores.
 
 The first input will be an integer greater than 0 that indicates the total number of assignments in the course. The next set of inputs will be a list of integers that indicate the total number of points each assignment is worth. After this list will be an integer that indicates the total number of participation points available during the semester. Following this, will be an integer greater than 0 indicating the number of students in the class followed by a line for each student in the following form:
 
-First_Name Last_Name Participation_Points A1_Points ... AN_Points Midterm Final_Exam
+FirstName LastName ParticipationPoints A<sub>1</sub>Points ... A<sub>n</sub>Points Midterm FinalExam
+
 The Participation_Points entry will be an integer between 0 and the previously specified maximum number of participation points available during the semester. The entries A1_Points ... AN_Points will be a series double values that indicate the number of points the student received for each assignment. Remember that you do not need to validate these values and can assume that the value given will be in the range from 0 to the maximum number of points for the assignment as indicated at the beginning of the input. The Midterm and Final_Exam entries will be double values representing percentages between 0.0 and 100.0 as before.
 
 To calculate a student's grade, you will need to first calculate the participation and assignment components as a percentage then calculate the weighted average of the participation, assignment, midterm, and final components as you did in A1 Novice.
