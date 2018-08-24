@@ -210,9 +210,9 @@ Once you have read in all of the input, calculate the average and standard devia
 
 The assignment is worth 10 points as follows:
 
-4 points for A1Novice
-4 points for A1Adept
-2 points for A1Jedi
+* 4 points for A1Novice
+* 4 points for A1Adept
+* 2 points for A1Jedi
 
 ## Submitting Your Code
 
